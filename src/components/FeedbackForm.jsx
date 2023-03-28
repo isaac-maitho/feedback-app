@@ -4,7 +4,6 @@ import Card from './shared/Card'
 import Button from './shared/Button'
 import React from 'react'
 import FeedbackContext from './context/FeedbackContext'
-import FeedbackItem from './FeebackItem'
 
 function FeedbackForm() {
 

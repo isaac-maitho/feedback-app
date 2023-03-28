@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 //import PropTypes from 'prop-types'
-import FeebackItem from "./FeebackItem"
+import FeedbackItem from "./FeedbackItem"
 import FeedbackContext from './context/FeedbackContext'
 function FeedbackList() {
 
@@ -11,7 +11,7 @@ function FeedbackList() {
   return (
     <div className="feedback-list">
         {feedback.map((item) => (
-            <FeebackItem 
+            <FeedbackItem 
             key ={item.id} 
             item={item} />
         ))}
