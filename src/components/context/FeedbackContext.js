@@ -23,8 +23,8 @@ export const FeebackProvider = ({children}) =>{
         }
     ])
 
-    const {feedbackEdit, setFeedbackEdit} = useState({
-        item,
+    const [feedbackEdit, setFeedbackEdit] = useState({
+        item: {},
         edit: false
     })
  
